@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 5778451497905142211}
   - component: {fileID: 698028569103452988}
   - component: {fileID: 5903097823975310446}
-  - component: {fileID: 7924745145321107462}
+  - component: {fileID: 6873239213912642259}
+  - component: {fileID: 1074505282336568908}
   m_Layer: 0
   m_Name: MiniMushroom
   m_TagString: Untagged
@@ -190,7 +191,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &7924745145321107462
+--- !u!114 &6873239213912642259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,22 +200,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3478097237571475230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9303b6ce63f50bf46b8d432a227c99e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 6518180ef4a25384db7612034146556d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MushroomEnemy
   view: 0
   sortByY: 1
-  frames:
-  - {fileID: 6258815744570463842, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: -1780636495819056943, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: 3928098910469638943, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: 5160959943961478452, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: -7984997907270847018, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: 4153345610596183073, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: -1064665060449411891, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: 7881105216912631506, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: -4625672073480081897, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
-  - {fileID: -9157720511666672107, guid: 3eea812a14038554ab03b7a5810f60ae, type: 3}
+  frames: []
   target: {fileID: 0}
   targetMask:
     serializedVersion: 2
@@ -235,6 +226,36 @@ MonoBehaviour:
   knockbackSpeed: 90
   stunTime: 0.12
   hitColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1074505282336568908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478097237571475230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4055301344c0125469aed083918bf680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 3
+  destroyOnDeath: 1
+  godMode: 0
+  invulnerableTime: 1
+  blinkRate: 8
+  blinkAlpha: 0.3
+  blinkRenderers: []
+  knockbackSpeed: 6
+  knockbackTime: 0.15
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onHealed:
+    m_PersistentCalls:
+      m_Calls: []
   onDied:
     m_PersistentCalls:
       m_Calls: []

@@ -101,6 +101,7 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
     Vector2 dbgCenter, dbgSize;
     bool dbgActive;
     int health;
+    bool warnedNoVictim;
     float stunT, flashT;
     Vector2 knockDir;
 
@@ -118,6 +119,7 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
             var p = GameObject.FindGameObjectWithTag("Player");
             if (p) target = p.transform;
         }
+        EnsureMask();
         Set(State.Idle);
     }
 
@@ -125,6 +127,7 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
     public void BeginChase(Transform newTarget, bool endless = true)
     {
         target = newTarget;
+        EnsureMask();
         endlessChase = endless;
         Set(State.Chase);
     }
@@ -253,7 +256,7 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
     void CheckHit(float minPx, float maxPx)
     {
         float x0 = minPx / pixelsPerUnit, x1 = maxPx / pixelsPerUnit;
-        Collider2D col;
+        Collider2D[] cols;
 
         if (IsTopDown)
         {
@@ -262,7 +265,7 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
             Vector2 center = (Vector2)transform.position + attackDir * ((x0 + x1) * 0.5f);
             dbgCenter = center;
             dbgSize = new Vector2(radius, radius);   // x = radius
-            col = Physics2D.OverlapCircle(center, radius, targetMask);
+            cols = Physics2D.OverlapCircleAll(center, radius, targetMask);
         }
         else
         {
@@ -270,14 +273,37 @@ public class MushroomEnemy : MonoBehaviour, IDamageable
             dbgSize = new Vector2(x1 - x0, h);
             dbgCenter = new Vector2(transform.position.x + facing * (x0 + x1) * 0.5f,
                                     transform.position.y + h * 0.5f);
-            col = Physics2D.OverlapBox(dbgCenter, dbgSize, 0f, targetMask);
+            cols = Physics2D.OverlapBoxAll(dbgCenter, dbgSize, 0f, targetMask);
         }
         dbgActive = true;
 
-        if (!col) return;
-        hitDone = true;
-        var victim = col.GetComponentInParent<IDamageable>();
-        if (victim != null) victim.TakeHit(transform.position, damage);
+        foreach (Collider2D col in cols)
+        {
+            if (col.GetComponentInParent<MushroomEnemy>()) continue;    // enemies never hurt each other
+
+            var victim = col.GetComponentInParent<IDamageable>();
+            if (victim == null) victim = col.GetComponentInChildren<IDamageable>();
+            if (victim == null)
+            {
+                if (!warnedNoVictim)
+                {
+                    warnedNoVictim = true;
+                    Debug.LogWarning("MushroomEnemy: the attack touched '" + col.name +
+                                     "' but it has no IDamageable. Add the Health script to the player.", col);
+                }
+                continue;
+            }
+
+            hitDone = true;
+            victim.TakeHit(transform.position, damage);
+            break;
+        }
+    }
+
+    // If Target Mask was left empty, attack whatever layer the target is on.
+    void EnsureMask()
+    {
+        if (targetMask.value == 0 && target) targetMask = 1 << target.gameObject.layer;
     }
 
     int AttackIndex()
