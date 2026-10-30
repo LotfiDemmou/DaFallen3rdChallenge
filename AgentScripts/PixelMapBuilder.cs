@@ -104,8 +104,9 @@ public static class PixelMapBuilder
         float elevation = Mathf.PerlinNoise(x * 0.085f + 11.3f, y * 0.085f + 23.7f)
                           * (0.34f + 0.66f * edgeFactor);
 
-        if (elevation < 0.215f) return "Water";
-        if (elevation < 0.275f) return "Ash";
+        bool coast = edge < 8f;
+        if (coast && elevation < 0.235f) return "Water";
+        if (coast && elevation < 0.285f) return "Ash";
 
         float forestNoise = Mathf.PerlinNoise(x * 0.16f + 91.2f, y * 0.16f + 47.5f);
         if (forestNoise > 0.615f) return "Mushrooms";
@@ -169,7 +170,7 @@ public static class PixelMapBuilder
         {
             float v = 0.02f * (float)rng.NextDouble();
             bool wave = ((y + (x / 4)) % 5) == 0 && x % 8 < 5;
-            Color c = wave ? new Color(0.34f, 0.12f, 0.62f) : new Color(0.16f, 0.04f, 0.34f);
+            Color c = wave ? new Color(0.52f, 0.18f, 0.88f) : new Color(0.30f, 0.06f, 0.58f);
             c += new Color(v, v * 0.4f, v);
             px[y * TilePx + x] = c;
         }
