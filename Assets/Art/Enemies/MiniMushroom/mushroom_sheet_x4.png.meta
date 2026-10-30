@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: e4c9877942c1b614d86748714dae0def
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6706813996727316308
+    second: mushroom_sheet_x4_0
+  - first:
+      213: -6526177492863137607
+    second: mushroom_sheet_x4_1
+  - first:
+      213: 3886719317609190204
+    second: mushroom_sheet_x4_2
+  - first:
+      213: 6587523295896947101
+    second: mushroom_sheet_x4_3
+  - first:
+      213: 4430546837924448792
+    second: mushroom_sheet_x4_4
+  - first:
+      213: 2719407307545600711
+    second: mushroom_sheet_x4_5
+  - first:
+      213: -1928532905189794825
+    second: mushroom_sheet_x4_6
+  - first:
+      213: 1910998216892822588
+    second: mushroom_sheet_x4_7
+  - first:
+      213: 1022553166043073109
+    second: mushroom_sheet_x4_8
+  - first:
+      213: 2039891674607530905
+    second: mushroom_sheet_x4_9
+  - first:
+      213: 7677502314833449174
+    second: mushroom_sheet_x4_10
+  - first:
+      213: -6480406696431571602
+    second: mushroom_sheet_x4_11
+  - first:
+      213: -1908398600160604762
+    second: mushroom_sheet_x4_12
+  - first:
+      213: -683174580973184367
+    second: mushroom_sheet_x4_13
+  - first:
+      213: 3447021853172046657
+    second: mushroom_sheet_x4_14
+  - first:
+      213: 4676718925404201128
+    second: mushroom_sheet_x4_15
+  - first:
+      213: -6052311767007510027
+    second: mushroom_sheet_x4_16
+  - first:
+      213: -5939821794652482590
+    second: mushroom_sheet_x4_17
+  - first:
+      213: -6562091365587762527
+    second: mushroom_sheet_x4_18
+  - first:
+      213: 6965242209429660560
+    second: mushroom_sheet_x4_19
+  - first:
+      213: -6379270505334060018
+    second: mushroom_sheet_x4_20
+  - first:
+      213: 8463553451245710003
+    second: mushroom_sheet_x4_21
+  - first:
+      213: 5393411395775982928
+    second: mushroom_sheet_x4_22
+  - first:
+      213: -8657781750346409483
+    second: mushroom_sheet_x4_23
+  - first:
+      213: 53008242816024770
+    second: mushroom_sheet_x4_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_0
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 7
+        width: 78
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca05376443c9ce2a0800000000000000
+      internalID: -6706813996727316308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_1
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 103
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b84ebcb52c5e65a0800000000000000
+      internalID: -6526177492863137607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_2
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 107
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c339ebb60a660f530800000000000000
+      internalID: 3886719317609190204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 19
+        width: 74
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d994c8119859b6b50800000000000000
+      internalID: 6587523295896947101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_4
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 87
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a873300e67c7d30800000000000000
+      internalID: 4430546837924448792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_5
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 87
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c26bd5c9864db520800000000000000
+      internalID: 2719407307545600711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_6
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb92806a897c35e0800000000000000
+      internalID: -1928532905189794825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c343d4cd0ca358a10800000000000000
+      internalID: 1910998216892822588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_8
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 7
+        width: 94
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ac2f1dfa6d03e00800000000000000
+      internalID: 1022553166043073109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_9
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99332459ba62f4c10800000000000000
+      internalID: 2039891674607530905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_10
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 7
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d013ed9da7fb8a60800000000000000
+      internalID: 7677502314833449174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_11
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d222bb178f016a0800000000000000
+      internalID: -6480406696431571602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_12
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 83
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad039395910485e0800000000000000
+      internalID: -1908398600160604762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_13
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 7
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a54859650e486f0800000000000000
+      internalID: -683174580973184367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b1453cc1846df20800000000000000
+      internalID: 3447021853172046657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_15
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 7
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a06017951b07e040800000000000000
+      internalID: 4676718925404201128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_16
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 7
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1c991b38ed10ca0800000000000000
+      internalID: -6052311767007510027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_17
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e39d9c5c83819da0800000000000000
+      internalID: -5939821794652482590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_18
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 7
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2cb72aba4cee4a0800000000000000
+      internalID: -6562091365587762527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_19
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093ac93d2e289a060800000000000000
+      internalID: 6965242209429660560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_20
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ccf6336474877a0800000000000000
+      internalID: -6379270505334060018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba2807a505947570800000000000000
+      internalID: 8463553451245710003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_22
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 7
+        width: 46
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d65c4c61f39da40800000000000000
+      internalID: 5393411395775982928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_23
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 11
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f91eb37e5169d780800000000000000
+      internalID: -8657781750346409483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mushroom_sheet_x4_24
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 11
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0873b47b25cb000800000000000000
+      internalID: 53008242816024770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mushroom_sheet_x4_0: -6706813996727316308
+      mushroom_sheet_x4_1: -6526177492863137607
+      mushroom_sheet_x4_10: 7677502314833449174
+      mushroom_sheet_x4_11: -6480406696431571602
+      mushroom_sheet_x4_12: -1908398600160604762
+      mushroom_sheet_x4_13: -683174580973184367
+      mushroom_sheet_x4_14: 3447021853172046657
+      mushroom_sheet_x4_15: 4676718925404201128
+      mushroom_sheet_x4_16: -6052311767007510027
+      mushroom_sheet_x4_17: -5939821794652482590
+      mushroom_sheet_x4_18: -6562091365587762527
+      mushroom_sheet_x4_19: 6965242209429660560
+      mushroom_sheet_x4_2: 3886719317609190204
+      mushroom_sheet_x4_20: -6379270505334060018
+      mushroom_sheet_x4_21: 8463553451245710003
+      mushroom_sheet_x4_22: 5393411395775982928
+      mushroom_sheet_x4_23: -8657781750346409483
+      mushroom_sheet_x4_24: 53008242816024770
+      mushroom_sheet_x4_3: 6587523295896947101
+      mushroom_sheet_x4_4: 4430546837924448792
+      mushroom_sheet_x4_5: 2719407307545600711
+      mushroom_sheet_x4_6: -1928532905189794825
+      mushroom_sheet_x4_7: 1910998216892822588
+      mushroom_sheet_x4_8: 1022553166043073109
+      mushroom_sheet_x4_9: 2039891674607530905
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
